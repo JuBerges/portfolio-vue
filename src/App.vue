@@ -29,14 +29,16 @@ export default {
 </script>
 <!--Style du darkmode-->
 <style scoped>
-.slide-enter-active,
-.slide-leave-active {
-    transition: opacity 400ms, transform 400ms;
+.slide-enter-active {
+    transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
-
-.slide-enter-from,
+.slide-leave-active {
+    transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-enter-from {
+    transform: translateX(-400px);
+}
 .slide-leave-to {
-    opacity: 0;
-    transform: translateX(-30%);
+    transform: translateX(400px);
 }
 </style>
