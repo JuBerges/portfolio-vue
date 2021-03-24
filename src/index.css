@@ -14,7 +14,7 @@ body {
         @apply text-center px-4 py-2 mt-2 mx-1 text-sm font-semibold bg-gray-100 border-b-8 border-t-8 border-blue-500 shadow-xl hover:shadow-lg transform transition-all hover:scale-95 rounded-2xl uppercase focus:outline-none;
     }
     .btn-nav {
-        @apply text-center text-sm font-semibold bg-gray-100 border-b-8 border-blue-500 shadow-xl hover:shadow-lg transform transition-all hover:scale-95 rounded-2xl uppercase;
+        @apply text-center text-sm font-semibold bg-gray-100 border-b-8 border-blue-500 shadow-xl hover:shadow-lg transform transition-all hover:scale-95 rounded-2xl uppercase p-2 mx-2;
     }
 }
 /* GLOWING TEXT */
