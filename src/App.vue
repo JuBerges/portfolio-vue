@@ -36,9 +36,9 @@ export default {
     transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 .slide-enter-from {
-    transform: translateX(-400px);
+    transform: translateX(-1000px);
 }
 .slide-leave-to {
-    transform: translateX(400px);
+    transform: translateX(1000px);
 }
 </style>

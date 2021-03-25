@@ -81,13 +81,15 @@
                     </div>
                 </div>
             </main>
+            <the-contact></the-contact>
         </div>
     </div>
 </template>
 <script>
+import TheContact from "../components/TheContact.vue";
 export default {
     name: "Home",
-    components: {},
+    components: { TheContact },
     data() {
         return {
             toggle: false,

@@ -1,16 +1,21 @@
 <template>
     <div class="help pt-11 mb-36 min-h-screen">
-        <div><h1 class="text-4xl text-white text-center mt-10">PORTFOLIO</h1></div>
+        <div><the-portfolio :key="pro" v-for="pro in projects" :name="pro.name" :text="pro.text"></the-portfolio></div>
     </div>
 </template>
 <script>
+import ThePortfolio from "../components/ThePortfolio.vue";
+import projects from "../assets/content/projects.json";
 export default {
     name: "Portfolio",
-    components: {},
+    components: { ThePortfolio },
     data() {
         return {
-            toggle: false,
+            projects: projects.projects,
         };
+    },
+    mounted() {
+        console.log(this.projects);
     },
 };
 </script>

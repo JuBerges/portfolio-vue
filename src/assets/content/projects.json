@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "name": "groupomania",
+            "text": "Ce projet réalisé pendant ma formation de développeur web, il consistait à créer un réseau social d'entreprise.",
+            "images": [
+                "../image/groupomania_1.png",
+                "../image/groupomania_2.png",
+                "../image/groupomania_3.png",
+                "../image/groupomania_4.png",
+                "../image/groupomania_5.png",
+                "../image/groupomania_5.png"
+            ],
+            "video": "https://www.youtube.com/embed/ObcP-D14lnc",
+            "link": "https://github.com/WadeSpectre/P7_Groupomania"
+        },
+        {
+            "name": "orinoco",
+            "text": "Un autre projet réalisé pendant ma formation de développeur web, il fallait cette fois créer le côté frontend d'un site de vente en ligne en utilisant boostrap et du JavaScript.",
+            "images": ["../image/market_1.png", "../image/market_2.png", "../image/market_3.png", "../image/market_4.png"],
+            "video": "https://www.youtube.com/embed/BwU6gs3e3ug",
+            "link": "https://github.com/WadeSpectre/P5_Onorico"
+        }
+    ]
+}
