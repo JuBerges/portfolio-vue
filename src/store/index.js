@@ -2,7 +2,7 @@ import { createStore } from "vuex";
 
 export default createStore({
     state: {
-        name: "Sphinks",
+        name: "Julien Bergès - Développeur Web",
     },
     mutations: {},
     actions: {},
