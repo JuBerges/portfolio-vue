@@ -17,19 +17,6 @@ body {
         @apply text-center text-sm font-semibold bg-gray-100 border-b-8 border-blue-500 shadow-xl hover:shadow-lg transform transition-all hover:scale-95 rounded-2xl uppercase p-2 mx-2;
     }
 }
-/* GLOWING TEXT */
-.glow {
-    color: #fff;
-    animation: glow 1.5s ease-in-out infinite alternate;
-}
-@keyframes glow {
-    from {
-        text-shadow: 0 0 0px #fff, 0 0 10px;
-    }
-    to {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff;
-    }
-}
 /* FADE IN TRANSITION */
 .spectre {
     animation: spectre 3s ease-in-out alternate;
@@ -42,6 +29,22 @@ body {
         opacity: 1;
     }
 }
+@media screen and (min-device-width: 480px) {
+    /* GLOWING TEXT */
+    .glow {
+        color: #fff;
+        animation: glow 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 0px #fff, 0 0 10px;
+        }
+        to {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+        }
+    }
+}
+
 /* CODE EXTRACT FOR VIOLET GLOW */
 /* .glow {
     color: #fff;
