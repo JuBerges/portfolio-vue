@@ -26,11 +26,11 @@
         },
         {
             "name": "reservia",
-            "text": "Ce projet à été réalisé avec comme objectif de mettre en pratique l'utilisation de Sass et d'animations CSS. Vous pouvez cliquer sur le titre pour voir le résultat.",
-            "images": ["/src/assets/image/res_1", "/src/assets/image/res_2", "/src/assets/image/res_3", "/src/assets/image/res_4"],
+            "text": "Mon tout premier projet réalisé seulement en HTML et CSS sans framework. Vous pouvez cliquer sur le titre pour voir le résultat.",
+            "images": ["/src/assets/image/res_1.png", "/src/assets/image/res_2.png", "/src/assets/image/res_3.png", "/src/assets/image/res_4.png"],
             "tech": "HTML5, CSS3.",
             "video": "",
-            "link": "https://wadespectre.github.io/JulienBerges_3_22092020/"
+            "link": "https://wadespectre.github.io/JulienBerges_2_03092020/"
         }
     ]
 }

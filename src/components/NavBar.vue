@@ -19,17 +19,17 @@
                 <!-- Lien vers contact -->
                 <router-link @click="scrollTop" class="router btn-nav pt-cust" :to="{ name: 'Contact' }">Contact</router-link>
             </div>
-            <div @click="toggled()" class="flex md:hidden router bg-white p-2 items-center border-blue-500 border-l-4 px-6 cursor-pointer"><i class="fas fa-bars"></i></div>
+            <div @click="toggledNav()" class="flex md:hidden router bg-white p-2 items-center border-blue-500 border-l-4 px-6 cursor-pointer"><i class="fas fa-bars"></i></div>
         </div>
         <transition name="slide-fade">
-            <div v-if="toggle" class="h-16 bg-blue-900 flex justify-center p-2 border-4 border-t-0  border-blue-500">
-                <router-link @click="scrollTop(), (toggle = false)" class="router btn-nav pt-cust" :to="{ name: 'Home' }">Accueil</router-link>
+            <div v-if="toggleNav" class="h-16 bg-blue-900 flex justify-center p-2 border-4 border-t-0  border-blue-500">
+                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav pt-cust" :to="{ name: 'Home' }">Accueil</router-link>
                 <!-- Lien vers portfolio -->
-                <router-link @click="scrollTop(), (toggle = false)" class="router btn-nav pt-cust" :to="{ name: 'Portfolio' }">
+                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav pt-cust" :to="{ name: 'Portfolio' }">
                     Portfolio
                 </router-link>
                 <!-- Lien vers contact -->
-                <router-link @click="scrollTop(), (toggle = false)" class="router btn-nav pt-cust" :to="{ name: 'Contact' }">Contact</router-link>
+                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav pt-cust" :to="{ name: 'Contact' }">Contact</router-link>
             </div>
         </transition>
     </header>
@@ -40,18 +40,18 @@ export default {
     components: {},
     data() {
         return {
-            toggle: false,
+            toggleNav: false,
         };
     },
     methods: {
         scrollTop() {
             return this.$emit("scroll-top");
         },
-        toggled() {
-            if (!this.toggle) {
-                this.toggle = true;
+        toggledNav() {
+            if (!this.toggleNav) {
+                this.toggleNav = true;
             } else {
-                this.toggle = false;
+                this.toggleNav = false;
             }
         },
     },

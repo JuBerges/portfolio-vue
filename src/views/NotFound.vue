@@ -1,5 +1,5 @@
 <template>
-    <div class="notfound pt-11 ml-6">
+    <div class="notfound pt-11 mb-36 min-h-screen">
         <h1 class="text-white font-extrabold text-5xl mt-6">404</h1>
         <h2 class="text-white font-extrabold text-5xl">Page Introuvable</h2>
         <router-link :to="{ name: 'Home' }">

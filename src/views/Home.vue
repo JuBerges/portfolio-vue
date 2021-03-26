@@ -81,8 +81,10 @@
                     </div>
                 </div>
             </main>
-            <div class="h-20 bg-black bg-transparent bg-opacity-50 flex justify-center">
-                <router-link class="bg-blue-500 self-center p-2 text-white uppercase border-2 border-white rounded-lg" :to="{ name: 'Portfolio' }">Voir mon Portfolio</router-link>
+            <div class="h-20 bg-black border-blue-500 border-t-4 border-b-4 bg-transparent bg-opacity-50 flex justify-center">
+                <router-link @click="scrollTop()" class="bg-blue-500 self-center p-2 text-white uppercase border-2 border-white rounded-lg" :to="{ name: 'Portfolio' }"
+                    >Voir mon Portfolio</router-link
+                >
             </div>
             <the-contact></the-contact>
         </div>
@@ -94,11 +96,13 @@ export default {
     name: "Home",
     components: { TheContact },
     data() {
-        return {
-            toggle: false,
-        };
+        return {};
     },
-    methods: {},
+    methods: {
+        scrollTop() {
+            return this.$emit("scroll-top");
+        },
+    },
 };
 </script>
 <style scoped></style>

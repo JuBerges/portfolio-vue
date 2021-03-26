@@ -4,7 +4,7 @@
             <NavBar @scroll-top="scrollToTop"></NavBar>
             <router-view v-slot="{ Component }">
                 <transition name="slide" mode="out-in">
-                    <component :is="Component" />
+                    <component @scroll-top="scrollToTop" :is="Component" />
                 </transition>
             </router-view>
             <the-footer></the-footer>

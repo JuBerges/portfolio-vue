@@ -21,7 +21,7 @@ const routes = [
         path: "/portfolio",
         name: "Portfolio",
         component: function() {
-            return import(/* webpackChunkName: "Portfolio */ "../views/Portfolio.vue");
+            return import(/* webpackChunkName: "Portfolio" */ "../views/Portfolio.vue");
         },
     },
     {

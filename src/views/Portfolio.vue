@@ -24,10 +24,8 @@ export default {
     data() {
         return {
             projects: projects.projects,
+            toggle: false,
         };
-    },
-    mounted() {
-        console.log(this.projects);
     },
 };
 </script>
