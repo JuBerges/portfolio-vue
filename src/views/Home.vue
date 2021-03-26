@@ -4,7 +4,7 @@
             <main>
                 <div class="flex-col sm:mt-16">
                     <!-- HERO PART -->
-                    <div class="flex justify-around flex-wrap jello-horizontal">
+                    <div class="flex justify-around flex-wrap">
                         <div class="flex mx-10 mt-16">
                             <h1 class="text-4xl font-bold text-gray-100 self-center">
                                 <span class="text-blue-500 font-extrabold text-5xl uppercase glow">Bienvenue <br /></span> Je suis <br /><span

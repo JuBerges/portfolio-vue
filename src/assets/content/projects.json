@@ -18,7 +18,7 @@
         },
         {
             "name": "ohmyfood",
-            "text": "Ce projet à été réalisé avec comme objectif de mettre en pratique l'utilisation de Sass et d'animations CSS. Vous pouvez cliquer sur le titre pour voir le résultat.",
+            "text": "Ce projet à été réalisé avec comme objectif de mettre en pratique l'utilisation de Sass et d'animations CSS. Cliquez sur le titre du projet pour voir le résultat.",
             "images": ["/src/assets/image/omfood_1.png", "/src/assets/image/omfood_2.png", "/src/assets/image/omfood_3.png", "/src/assets/image/omfood_4.png"],
             "tech": "HTML5, CSS3 et Sass.",
             "video": "",
@@ -26,7 +26,7 @@
         },
         {
             "name": "reservia",
-            "text": "Mon tout premier projet réalisé seulement en HTML et CSS sans framework. Vous pouvez cliquer sur le titre pour voir le résultat.",
+            "text": "Mon tout premier projet réalisé seulement en HTML et CSS sans framework. Cliquez sur le titre du projet pour voir le résultat.",
             "images": ["/src/assets/image/res_1.png", "/src/assets/image/res_2.png", "/src/assets/image/res_3.png", "/src/assets/image/res_4.png"],
             "tech": "HTML5, CSS3.",
             "video": "",
