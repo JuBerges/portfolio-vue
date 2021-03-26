@@ -66,13 +66,13 @@ export default {
     color: rgba(0, 0, 0);
 }
 .router:hover {
-    color: rgb(30, 58, 138);
+    color: rgb(59, 130, 246);
 }
 
 .router.router-link-active,
 .router.router-link-exact-active {
     /*  border-bottom: solid 10px white; */
-    color: rgb(30, 58, 138);
+    color: rgb(59, 130, 246);
 }
 .slide-fade-enter-active {
     transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);

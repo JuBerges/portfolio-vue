@@ -81,6 +81,9 @@
                     </div>
                 </div>
             </main>
+            <div class="h-20 bg-black bg-transparent bg-opacity-50 flex justify-center">
+                <router-link class="bg-blue-500 self-center p-2 text-white uppercase border-2 border-white rounded-lg" :to="{ name: 'Portfolio' }">Voir mon Portfolio</router-link>
+            </div>
             <the-contact></the-contact>
         </div>
     </div>

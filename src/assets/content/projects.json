@@ -2,24 +2,35 @@
     "projects": [
         {
             "name": "groupomania",
-            "text": "Ce projet réalisé pendant ma formation de développeur web, il consistait à créer un réseau social d'entreprise.",
-            "images": [
-                "../image/groupomania_1.png",
-                "../image/groupomania_2.png",
-                "../image/groupomania_3.png",
-                "../image/groupomania_4.png",
-                "../image/groupomania_5.png",
-                "../image/groupomania_5.png"
-            ],
+            "text": "Ce projet réalisé pendant ma formation de développeur web, il consistait à créer un réseau social d'entreprise",
+            "tech": "HTML5, CSS3, TailwindCSS, JavaScript, NodeJS, VueJS et MySQL.",
+            "images": ["/src/assets/image/groupomania_1.png", "/src/assets/image/groupomania_2.png", "/src/assets/image/groupomania_3.png", "/src/assets/image/groupomania_4.png"],
             "video": "https://www.youtube.com/embed/ObcP-D14lnc",
             "link": "https://github.com/WadeSpectre/P7_Groupomania"
         },
         {
             "name": "orinoco",
             "text": "Un autre projet réalisé pendant ma formation de développeur web, il fallait cette fois créer le côté frontend d'un site de vente en ligne en utilisant boostrap et du JavaScript.",
-            "images": ["../image/market_1.png", "../image/market_2.png", "../image/market_3.png", "../image/market_4.png"],
+            "tech": "HTML5, CSS3, Bootstrap et JavaScript.",
+            "images": ["/src/assets/image/market_1.png", "/src/assets/image/market_2.png", "/src/assets/image/market_3.png", "/src/assets/image/market_4.png"],
             "video": "https://www.youtube.com/embed/BwU6gs3e3ug",
             "link": "https://github.com/WadeSpectre/P5_Onorico"
+        },
+        {
+            "name": "ohmyfood",
+            "text": "Ce projet à été réalisé avec comme objectif de mettre en pratique l'utilisation de Sass et d'animations CSS. Vous pouvez cliquer sur le titre pour voir le résultat.",
+            "images": ["/src/assets/image/omfood_1.png", "/src/assets/image/omfood_2.png", "/src/assets/image/omfood_3.png", "/src/assets/image/omfood_4.png"],
+            "tech": "HTML5, CSS3 et Sass.",
+            "video": "",
+            "link": "https://wadespectre.github.io/JulienBerges_3_22092020/"
+        },
+        {
+            "name": "reservia",
+            "text": "Ce projet à été réalisé avec comme objectif de mettre en pratique l'utilisation de Sass et d'animations CSS. Vous pouvez cliquer sur le titre pour voir le résultat.",
+            "images": ["/src/assets/image/res_1", "/src/assets/image/res_2", "/src/assets/image/res_3", "/src/assets/image/res_4"],
+            "tech": "HTML5, CSS3.",
+            "video": "",
+            "link": "https://wadespectre.github.io/JulienBerges_3_22092020/"
         }
     ]
 }
