@@ -4,7 +4,7 @@
             "name": "groupomania",
             "text": "Ce projet réalisé pendant ma formation de développeur web, il consistait à créer un réseau social d'entreprise",
             "tech": "HTML5, CSS3, TailwindCSS, JavaScript, NodeJS, VueJS et MySQL.",
-            "images": ["/src/assets/image/groupomania_1.png", "/src/assets/image/groupomania_2.png", "/src/assets/image/groupomania_3.png", "/src/assets/image/groupomania_4.png"],
+            "images": ["/_assets/groupomania_1.png", "/_assets/groupomania_2.png", "/_assets/groupomania_3.png", "/_assets/groupomania_4.png"],
             "video": "https://www.youtube.com/embed/ObcP-D14lnc",
             "link": "https://github.com/WadeSpectre/P7_Groupomania"
         },
@@ -12,14 +12,14 @@
             "name": "orinoco",
             "text": "Un autre projet réalisé pendant ma formation de développeur web, il fallait cette fois créer le côté frontend d'un site de vente en ligne en utilisant boostrap et du JavaScript.",
             "tech": "HTML5, CSS3, Bootstrap et JavaScript.",
-            "images": ["/src/assets/image/market_1.png", "/src/assets/image/market_2.png", "/src/assets/image/market_3.png", "/src/assets/image/market_4.png"],
+            "images": ["/_assets/market_1.png", "/_assets/market_2.png", "/_assets/market_3.png", "/_assets/market_4.png"],
             "video": "https://www.youtube.com/embed/BwU6gs3e3ug",
             "link": "https://github.com/WadeSpectre/P5_Onorico"
         },
         {
             "name": "ohmyfood",
             "text": "Ce projet à été réalisé avec comme objectif de mettre en pratique l'utilisation de Sass et d'animations CSS. Cliquez sur le titre du projet pour voir le résultat.",
-            "images": ["/src/assets/image/omfood_1.png", "/src/assets/image/omfood_2.png", "/src/assets/image/omfood_3.png", "/src/assets/image/omfood_4.png"],
+            "images": ["/_assets/omfood_1.png", "/_assets/omfood_2.png", "/_assets/omfood_3.png", "/_assets/omfood_4.png"],
             "tech": "HTML5, CSS3 et Sass.",
             "video": "",
             "link": "https://wadespectre.github.io/JulienBerges_3_22092020/"
@@ -27,7 +27,7 @@
         {
             "name": "reservia",
             "text": "Mon tout premier projet réalisé seulement en HTML et CSS sans framework. Cliquez sur le titre du projet pour voir le résultat.",
-            "images": ["/src/assets/image/res_1.png", "/src/assets/image/res_2.png", "/src/assets/image/res_3.png", "/src/assets/image/res_4.png"],
+            "images": ["/_assets/res_1.png", "/_assets/res_2.png", "/_assets/res_3.png", "/_assets/res_4.png"],
             "tech": "HTML5, CSS3.",
             "video": "",
             "link": "https://wadespectre.github.io/JulienBerges_2_03092020/"

@@ -30,15 +30,6 @@ body {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff;
     }
 }
-/* ANOXIC FONT just use the 'ano' class */
-.ano {
-    font-family: "Anoxic";
-}
-@font-face {
-    font-family: "Anoxic";
-    src: url("/src/assets/font/Anoxic-Light.ttf");
-}
-
 /* FADE IN TRANSITION */
 .spectre {
     animation: spectre 3s ease-in-out alternate;
