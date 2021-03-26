@@ -61,22 +61,22 @@
                         </div>
                         <!-- PREZ & TECH PART -->
                         <div class="flex justify-around flex-wrap my-16">
-                            <div class="flex mx-10">
+                            <div class="flex mx-10 items-center">
                                 <h2 class="uppercase font-extrabold text-4xl text-blue-500">Technologies utilisées</h2>
                             </div>
                             <!-- icon part -->
-                            <div class="mx-5 flex flex-wrap">
+                            <div class="mx-5 flex flex-wrap justify-center">
                                 <div class="text-5xl">
-                                    <i title="logo html 5" class="fab fa-html5 text-red-600"></i>
-                                    <i title="logo CSS 3" class="fab fa-css3-alt text-blue-500"></i>
-                                    <i title="logo JavaScript" class="fab fa-js-square text-yellow-300"></i>
-                                    <i title="logo node JS" class="fab fa-node text-green-500"></i>
-                                    <i title="logo PHP" class="fab fa-php text-indigo-600"></i>
+                                    <i title="logo html 5" class="fab fa-html5 text-red-600 p-1"></i>
+                                    <i title="logo CSS 3" class="fab fa-css3-alt text-blue-500 p-1"></i>
+                                    <i title="logo JavaScript" class="fab fa-js-square text-yellow-300 p-1"></i>
+                                    <i title="logo node JS" class="fab fa-node text-green-500 p-1"></i>
+                                    <i title="logo PHP" class="fab fa-php text-indigo-600 p-1"></i>
                                 </div>
                                 <div class="flex">
-                                    <img title="logo Vue jS" class="h-12" src="/src/assets/image/vuejs.png" alt="logo de VueJS" />
-                                    <img title="logo Symfony" class="h-12 bg-gray-50" src="/src/assets/image/symfony.png" alt="logo de Symfony" />
-                                    <img title="logo MySQL" class="h-12" src="/src/assets/image/sql.png" alt="logo de MySQL" />
+                                    <img title="logo Vue jS" class="h-12 p-1" src="/src/assets/image/vuejs.png" alt="logo de VueJS" />
+                                    <img title="logo Symfony" class="h-12 bg-gray-50 p-1" src="/src/assets/image/symfony.png" alt="logo de Symfony" />
+                                    <img title="logo MySQL" class="h-12 p-1" src="/src/assets/image/sql.png" alt="logo de MySQL" />
                                 </div>
                             </div>
                         </div>
