@@ -28,20 +28,32 @@
                     Musique: <a href="https://www.youtube.com/channel/UC7Lah4xMT_IFjq1axEcXcAA" target="_blank" class="text-blue-500 uppercase font-bold">Sphinks</a>
                 </p>
             </div>
-            <div v-if="video" class="h-1 bg-blue-500"></div>
+            <div v-else><img @click="toggled()" :src="example" alt="illustation de projet" /></div>
+            <div class="h-1 bg-blue-500"></div>
             <!-- IMAGES -->
             <div class="" v-if="images">
-                <div v-if="!toggle"><button class="p-2 bg-blue-500 text-white w-full" @click="toggled()">Afficher Galerie</button></div>
+                <div v-if="!toggle">
+                    <button class="p-2 bg-blue-500 w-full" @click="toggled()">
+                        <span class="p-1 bg-blue-900 text-white rounded-lg border-4 border-white hover:text-black hover:bg-blue-500">Ouvrir Galerie</span>
+                    </button>
+                </div>
                 <!-- MODAL START -->
                 <div v-if="toggle" class="modal h-full w-full fixed left-0 top-0 flex justify-center items-center bg-black bg-opacity-75">
                     <!-- modal -->
                     <div class="bg-blue-500 rounded-lg shadow-lg w-full sm:w-2/3 mx-2 mt-10 border-4 border-blue-900">
                         <!-- modal body -->
-                        <div id="commentScroll" class="p-2 max-h-96 overflow-scroll text-white ">
-                            <!-- ICI -->
-                            <div v-if="toggle"><the-display class="" :key="img" v-for="img of images" :image="img"></the-display></div>
+                        <div class="flex">
+                            <div id="commentScroll" class="p-2 max-h-96 overflow-scroll text-white ">
+                                <!-- ICI -->
+                                <div v-if="toggle"><the-display class="" :key="img" v-for="img of images" :image="img"></the-display></div>
+                            </div>
+                            <div class="flex-col self-center"><i class="fas fa-arrow-up my-5"></i><i class="fas fa-arrow-down my-5"></i></div>
                         </div>
-                        <div><button class="p-2 bg-blue-500 text-white w-full" @click="toggled()">Fermer</button></div>
+                        <div>
+                            <button class="p-2 bg-blue-500 text-white w-full" @click="toggled()">
+                                <span class="p-1 bg-blue-900 text-white rounded-lg border-4 border-white hover:text-black hover:bg-blue-500">Fermer</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <!-- MODAL END -->
@@ -58,15 +70,18 @@ export default {
     data() {
         return {
             toggle: false,
+            example: "",
         };
     },
+    mounted() {
+        if (this.images) {
+            this.example = this.images[0];
+        }
+    },
+
     methods: {
         toggled() {
-            if (!this.toggle) {
-                this.toggle = true;
-            } else {
-                this.toggle = false;
-            }
+            !this.toggle ? (this.toggle = true) : (this.toggle = false);
         },
     },
 };

@@ -49,11 +49,7 @@ export default {
             return this.$emit("scroll-top");
         },
         toggledNav() {
-            if (!this.toggleNav) {
-                this.toggleNav = true;
-            } else {
-                this.toggleNav = false;
-            }
+            !this.toggleNav ? (this.toggleNav = true) : (this.toggleNav = false);
         },
     },
 };

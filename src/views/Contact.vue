@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="help pt-11 mb-36 min-h-screen">
+        <div class="help pt-11">
             <the-contact></the-contact>
         </div>
         <the-footer></the-footer>

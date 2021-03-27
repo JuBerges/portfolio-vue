@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="help pt-11 mb-36 min-h-screen">
+        <div class="help pt-11">
             <div>
                 <main>
                     <div class="flex-col sm:mt-16">
@@ -89,8 +89,8 @@
                 </div>
                 <the-contact></the-contact>
             </div>
+            <the-footer></the-footer>
         </div>
-        <the-footer></the-footer>
     </div>
 </template>
 <script>

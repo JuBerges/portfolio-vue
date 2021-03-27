@@ -1,8 +1,16 @@
 {
     "projects": [
         {
+            "name": "sphinks",
+            "text": "[En construction] Site vitrine pour le compositeur \"Sphinks\". Cliquez sur le titre du projet pour voir sa page Youtube.",
+            "images": ["/_assets/sph_1.png", "/_assets/sph_2.png", "/_assets/sph_3.png"],
+            "tech": "HTML5, CSS3, tailwindCSS, VueJS.",
+            "video": "",
+            "link": "https://www.youtube.com/channel/UC7Lah4xMT_IFjq1axEcXcAA"
+        },
+        {
             "name": "groupomania",
-            "text": "Ce projet réalisé pendant ma formation de développeur web, il consistait à créer un réseau social d'entreprise",
+            "text": "Ce projet réalisé pendant ma formation de développeur web, consistait à créer un réseau social d'entreprise afin d'améliorer l'ambiance entre les employés",
             "tech": "HTML5, CSS3, TailwindCSS, JavaScript, NodeJS, VueJS et MySQL.",
             "images": ["/_assets/groupomania_1.png", "/_assets/groupomania_2.png", "/_assets/groupomania_3.png", "/_assets/groupomania_4.png"],
             "video": "https://www.youtube.com/embed/ObcP-D14lnc",
