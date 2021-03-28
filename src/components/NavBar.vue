@@ -11,26 +11,26 @@
             </div>
             <div class="hidden md:flex mr-2 h-11 mt-2">
                 <!-- Lien vers l'accueil-->
-                <router-link @click="scrollTop" class="router btn-nav pt-cust" :to="{ name: 'Home' }">Accueil</router-link>
+                <router-link @click="scrollTop" class="router btn-nav" :to="{ name: 'Home' }">Accueil</router-link>
                 <!-- Lien vers portfolio -->
-                <router-link @click="scrollTop" class="router btn-nav pt-cust" :to="{ name: 'Portfolio' }">
+                <router-link @click="scrollTop" class="router btn-nav" :to="{ name: 'Portfolio' }">
                     Portfolio
                 </router-link>
                 <!-- Lien vers contact -->
-                <router-link @click="scrollTop" class="router btn-nav pt-cust" :to="{ name: 'Contact' }">Contact</router-link>
+                <router-link @click="scrollTop" class="router btn-nav" :to="{ name: 'Contact' }">Contact</router-link>
             </div>
             <div @click="toggledNav()" class="flex md:hidden router bg-white p-2 items-center border-blue-500 border-l-4 px-6 cursor-pointer"><i class="fas fa-bars"></i></div>
         </div>
         <transition name="slide-fade">
             <div v-if="toggleNav" class="h-16 bg-blue-900 flex justify-center p-2 border-4 border-t-0  border-blue-500">
                 <!-- Lien vers l'accueil-->
-                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav pt-cust" :to="{ name: 'Home' }">Accueil</router-link>
+                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav" :to="{ name: 'Home' }">Accueil</router-link>
                 <!-- Lien vers portfolio -->
-                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav pt-cust" :to="{ name: 'Portfolio' }">
+                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav" :to="{ name: 'Portfolio' }">
                     Portfolio
                 </router-link>
                 <!-- Lien vers contact -->
-                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav pt-cust" :to="{ name: 'Contact' }">Contact</router-link>
+                <router-link @click="scrollTop(), (toggleNav = false)" class="router btn-nav" :to="{ name: 'Contact' }">Contact</router-link>
             </div>
         </transition>
     </header>
@@ -56,9 +56,6 @@ export default {
 </script>
 <!-- Style for darkmode and router-link-activ -->
 <style scoped>
-.pt-cust {
-    padding-top: 14px;
-}
 .router {
     color: rgba(0, 0, 0);
 }
