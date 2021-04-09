@@ -7,14 +7,16 @@
                     <component @scroll-top="scrollToTop" :is="Component" />
                 </transition>
             </router-view>
+            <TheContactTilter></TheContactTilter>
         </div>
     </div>
 </template>
 <script>
 import NavBar from "./components/NavBar.vue";
+import TheContactTilter from "./components/TheContactTilter.vue";
 export default {
     name: "App",
-    components: { NavBar },
+    components: { NavBar, TheContactTilter },
     data() {
         return {};
     },

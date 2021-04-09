@@ -1,7 +1,8 @@
 /* ./src/index.css */
 body {
-    background-color: black;
     background: url("/src/assets/image/spiralblue.jpg") 0 0 fixed no-repeat;
+    background-size: cover;
+    background-color: #000000;
 }
 
 /*! @import */
@@ -14,7 +15,10 @@ body {
         @apply text-center px-4 py-2 mt-2 mx-1 text-sm font-semibold bg-gray-100 border-b-8 border-t-8 border-blue-500 shadow-xl hover:shadow-lg transform transition-all hover:scale-95 rounded-2xl uppercase focus:outline-none;
     }
     .btn-nav {
-        @apply text-center text-sm font-semibold bg-gray-100 border-b-8 border-blue-500 shadow-xl hover:shadow-lg transform transition-all hover:scale-95 rounded-2xl uppercase p-2 mx-2 items-center;
+        @apply text-center text-sm font-semibold bg-gray-100 border-b-8 border-blue-500 shadow-xl hover:shadow-lg transform transition-all hover:scale-95 uppercase p-2 mx-2 my-auto;
+    }
+    .home-text {
+        @apply flex-col mb-5 justify-center w-full xl:w-1/2 text-center;
     }
 }
 /* FADE IN TRANSITION */

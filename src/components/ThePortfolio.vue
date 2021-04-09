@@ -17,18 +17,12 @@
             <div class="h-1 bg-blue-500"></div>
             <!-- VIDEO -->
             <div v-if="video">
-                <iframe
-                    class="h-80 w-full px-2"
-                    :src="video"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                ></iframe>
+                <video controls :src="video" class="h-full w-full px-2"></video>
                 <p class="px-2 text-xs text-center">
                     Musique: <a href="https://www.youtube.com/channel/UC7Lah4xMT_IFjq1axEcXcAA" target="_blank" class="text-blue-500 uppercase font-bold">Sphinks</a>
                 </p>
             </div>
-            <div v-else><img @click="toggled()" :src="example" alt="illustation de projet" /></div>
+            <div class="flex justify-center" v-else><img @click="toggled()" :src="example" alt="illustation de projet" /></div>
             <div class="h-1 bg-blue-500"></div>
             <!-- IMAGES -->
             <div class="" v-if="images">

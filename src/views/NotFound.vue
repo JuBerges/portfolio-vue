@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="notfound pt-11">
+        <div class="notfound pt-11 h-screen">
             <h1 class="text-white font-extrabold text-5xl mt-6">404</h1>
             <h2 class="text-white font-extrabold text-5xl">Page Introuvable</h2>
             <router-link :to="{ name: 'Home' }">
@@ -11,8 +11,8 @@
                 </button>
             </router-link>
             <img class="mx-auto" src="/src/assets/image/losttra.png" alt="image de john travolta perdu" />
-            <the-footer></the-footer>
         </div>
+        <the-footer></the-footer>
     </div>
 </template>
 <script>

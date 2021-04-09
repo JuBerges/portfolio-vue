@@ -2,32 +2,47 @@
     "projects": [
         {
             "name": "sphinks",
-            "text": "[En construction] Site vitrine pour le compositeur \"Sphinks\". Cliquez sur le titre du projet pour voir sa page Youtube.",
-            "images": ["/_assets/sph_1.png", "/_assets/sph_2.png", "/_assets/sph_3.png"],
+            "text": "[En construction] Site vitrine pour le compositeur \"Sphinks\". Cliquez sur le titre du projet pour le site.",
+            "images": ["https://julien-berges.fr/projects/sph_1.png", "https://julien-berges.fr/projects/sph_2.png", "https://julien-berges.fr/projects/sph_3.png"],
             "tech": "HTML5, CSS3, tailwindCSS, VueJS.",
             "video": "",
-            "link": "https://www.youtube.com/channel/UC7Lah4xMT_IFjq1axEcXcAA"
+            "link": "https://sphinks.julien-berges.fr/"
         },
         {
             "name": "groupomania",
             "text": "Ce projet réalisé pendant ma formation de développeur web, consistait à créer un réseau social d'entreprise afin d'améliorer l'ambiance entre les employés",
             "tech": "HTML5, CSS3, TailwindCSS, JavaScript, NodeJS, VueJS et MySQL.",
-            "images": ["/_assets/groupomania_1.png", "/_assets/groupomania_2.png", "/_assets/groupomania_3.png", "/_assets/groupomania_4.png"],
-            "video": "https://www.youtube.com/embed/ObcP-D14lnc",
+            "images": [
+                "https://julien-berges.fr/projects/groupomania_1.png",
+                "https://julien-berges.fr/projects/groupomania_2.png",
+                "https://julien-berges.fr/projects/groupomania_3.png",
+                "https://julien-berges.fr/projects/groupomania_4.png"
+            ],
+            "video": "https://julien-berges.fr/projects/Groupomania_Demo.mp4",
             "link": "https://github.com/WadeSpectre/P7_Groupomania"
         },
         {
             "name": "orinoco",
             "text": "Un autre projet réalisé pendant ma formation de développeur web, il fallait cette fois créer le côté frontend d'un site de vente en ligne en utilisant boostrap et du JavaScript.",
             "tech": "HTML5, CSS3, Bootstrap et JavaScript.",
-            "images": ["/_assets/market_1.png", "/_assets/market_2.png", "/_assets/market_3.png", "/_assets/market_4.png"],
-            "video": "https://www.youtube.com/embed/BwU6gs3e3ug",
+            "images": [
+                "https://julien-berges.fr/projects/market_1.png",
+                "https://julien-berges.fr/projects/market_2.png",
+                "https://julien-berges.fr/projects/market_3.png",
+                "https://julien-berges.fr/projects/market_4.png"
+            ],
+            "video": "https://julien-berges.fr/projects/Orinoco_Demo.mp4",
             "link": "https://github.com/WadeSpectre/P5_Onorico"
         },
         {
             "name": "ohmyfood",
             "text": "Ce projet à été réalisé avec comme objectif de mettre en pratique l'utilisation de Sass et d'animations CSS. Cliquez sur le titre du projet pour voir le résultat.",
-            "images": ["/_assets/omfood_1.png", "/_assets/omfood_2.png", "/_assets/omfood_3.png", "/_assets/omfood_4.png"],
+            "images": [
+                "https://julien-berges.fr/projects/omfood_1.png",
+                "https://julien-berges.fr/projects/omfood_2.png",
+                "https://julien-berges.fr/projects/omfood_3.png",
+                "https://julien-berges.fr/projects/omfood_4.png"
+            ],
             "tech": "HTML5, CSS3 et Sass.",
             "video": "",
             "link": "https://wadespectre.github.io/JulienBerges_3_22092020/"
@@ -35,7 +50,12 @@
         {
             "name": "reservia",
             "text": "Mon tout premier projet réalisé seulement en HTML et CSS sans framework. Cliquez sur le titre du projet pour voir le résultat.",
-            "images": ["/_assets/res_1.png", "/_assets/res_2.png", "/_assets/res_3.png", "/_assets/res_4.png"],
+            "images": [
+                "https://julien-berges.fr/projects/res_1.png",
+                "https://julien-berges.fr/projects/res_2.png",
+                "https://julien-berges.fr/projects/res_3.png",
+                "https://julien-berges.fr/projects/res_4.png"
+            ],
             "tech": "HTML5, CSS3.",
             "video": "",
             "link": "https://wadespectre.github.io/JulienBerges_2_03092020/"

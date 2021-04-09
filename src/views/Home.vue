@@ -3,30 +3,26 @@
         <div class="help pt-11">
             <div>
                 <main>
-                    <div class="flex-col sm:mt-16">
+                    <div class="flex-col xl:mt-16">
                         <!-- HERO PART -->
-                        <div class="flex justify-around flex-wrap">
-                            <div class="flex mx-10 mt-16">
-                                <h1 class="text-4xl font-bold text-gray-100 self-center">
-                                    <span class="text-blue-500 font-extrabold text-5xl uppercase glow">Bienvenue <br /></span> Je suis <br /><span
-                                        class="text-blue-500 font-extrabold text-5xl"
-                                    >
-                                        Julien Bergès</span
-                                    ><span>,</span><br />
-                                    <span class=""> Développeur Web.</span>
-                                </h1>
+                        <div class="flex flex-wrap">
+                            <div class="home-text pt-12">
+                                <h1 class="glow uppercase text-blue-500 font-extrabold text-4xl xl:text-7xl align-middle">bienvenue</h1>
+                                <p class="text-white text-3xl xl:text-4xl font-extrabold">Je suis</p>
+                                <h2 class="coated uppercase text-blue-500 font-extrabold text-4xl xl:text-7xl">julien bergès</h2>
+                                <p class="text-white text-3xl xl:text-4xl font-extrabold">Développeur Web</p>
                             </div>
-                            <div class="mx-5">
-                                <img src="/src/assets/image/prog.png" alt="illustration montrant un développeur web" />
+                            <div class="w-full xl:w-1/2 flex justify-center">
+                                <img class="self-center" src="/src/assets/image/prog.png" alt="illustration montrant un développeur web" />
                             </div>
                         </div>
                         <!-- MOCKUP PART -->
-                        <div class="flex justify-end flex-wrap-reverse">
-                            <div class="mx-5">
+                        <div class="flex flex-wrap-reverse mt-5">
+                            <div class="w-full xl:w-1/2 flex justify-center">
                                 <img src="/src/assets/image/mockup.png" alt="illustration intégration de maquette" />
                             </div>
-                            <div class="flex mx-10 mt-16">
-                                <p class="text-4xl font-bold text-gray-100 align-middle">
+                            <div class="home-text pt-12">
+                                <p class="text-4xl xl:text-7xl font-bold text-gray-100">
                                     <span class="text-blue-500">Transformation <br /> </span>
                                     de maquette <br />en
                                     <span class="text-blue-500"> site web</span>
@@ -34,25 +30,25 @@
                             </div>
                         </div>
                         <!-- RESPONSIVE PART -->
-                        <div class="flex justify-start flex-wrap">
-                            <div class="flex mx-10">
-                                <p class="text-4xl font-bold text-gray-100 align-middle">
+                        <div class="flex flex-wrap mt-5">
+                            <div class="home-text pt-4">
+                                <p class="text-4xl xl:text-7xl font-bold text-gray-100">
                                     <span class="text-blue-500">Des sites </span>adaptés <br />
                                     pour <span class="text-blue-500">tout</span> <br />les
                                     <span class="text-blue-500"> formats</span>
                                 </p>
                             </div>
-                            <div class="mx-5">
+                            <div class="w-full xl:w-1/2 flex justify-center">
                                 <img src="/src/assets/image/responsive.png" alt="illustration de site responsive" />
                             </div>
                         </div>
                         <!-- SEO PART -->
-                        <div class="flex justify-center flex-wrap-reverse">
-                            <div class="mx-5">
+                        <div class="flex flex-wrap-reverse mt-5">
+                            <div class="w-full xl:w-1/2 flex justify-center">
                                 <img src="/src/assets/image/seo_2.png" alt="illustration amélioration du réferencement" />
                             </div>
-                            <div class="flex mx-10 mt-16">
-                                <p class="text-4xl font-bold text-gray-100 align-middle">
+                            <div class="home-text pt-16">
+                                <p class="text-4xl xl:text-7xl font-bold text-gray-100">
                                     <span class="text-blue-500">Amélioration</span><br />
                                     de la <span class="text-blue-500">visibilité</span> <br />
                                     de votre <span class="text-blue-500">site web</span>
@@ -60,7 +56,7 @@
                             </div>
                         </div>
                         <!-- PREZ & TECH PART -->
-                        <div class="flex justify-around flex-wrap my-16">
+                        <div class="flex w-full justify-around flex-wrap my-16">
                             <div class="flex mx-10 items-center">
                                 <h2 class="uppercase font-extrabold text-4xl text-blue-500">Technologies utilisées</h2>
                             </div>
@@ -82,8 +78,9 @@
                         </div>
                     </div>
                 </main>
-                <div class="h-20 bg-black border-blue-500 border-t-4 border-b-4 bg-transparent bg-opacity-50 flex justify-center">
-                    <router-link @click="scrollTop()" class="bg-blue-500 self-center p-2 text-white uppercase border-2 border-white rounded-lg" :to="{ name: 'Portfolio' }"
+                <!-- PORTFOLIO LINK -->
+                <div class="glass h-20 border-blue-500 border-t border-b flex justify-center">
+                    <router-link @click="scrollTop()" class="bg-blue-600 self-center p-2 text-white uppercase border-2 border-white rounded-lg" :to="{ name: 'Portfolio' }"
                         >Voir mon Portfolio</router-link
                     >
                 </div>
@@ -109,4 +106,28 @@ export default {
     },
 };
 </script>
-<style scoped></style>
+<style scoped>
+.glass {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    background: inherit;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+.glass:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: inherit;
+    margin: -20px;
+    box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+.coated {
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+</style>
