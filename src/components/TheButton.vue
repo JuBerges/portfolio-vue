@@ -2,7 +2,7 @@
     <button class="pushable mx-1">
         <span class="shadow"></span>
         <span class="edge"></span>
-        <span class="front">
+        <span class="front" :class="size">
             <slot>Push</slot>
         </span>
     </button>
@@ -11,7 +11,17 @@
 export default {
     name: "TheButton",
     data() {
-        return {};
+        return {
+            size: "p-2",
+        };
+    },
+    props: {
+        sizeChanger: String,
+    },
+    mounted() {
+        if (this.sizeChanger) {
+            this.size = this.sizeChanger;
+        }
     },
 };
 </script>
@@ -49,7 +59,6 @@ export default {
 .front {
     display: block;
     position: relative;
-    padding: 10px 10px;
     border-radius: 12px;
     font-size: 1rem;
     font-weight: bold;
