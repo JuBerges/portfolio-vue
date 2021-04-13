@@ -1,5 +1,5 @@
 <template>
-    <button class="pushable mx-1">
+    <button type="submit" class="pushable mx-1">
         <span class="shadow"></span>
         <span class="edge"></span>
         <span class="front" :class="size">

@@ -8,9 +8,7 @@
                     <span class="text-blue-500">votre projet.</span>
                 </h1>
                 <div class="flex flex-col mt-5">
-                    <a href="mailto:mbergesjuline@gmail.com" target="_blank" class="btn-jb">Email: mbergesjulien@gmail.com</a>
-
-                    <a href="tel:+33603371005" class="btn-jb">Tel: 06-03-37-10-05</a>
+                    <router-link @click="scrollToTop()" :to="{ name: 'Contact' }"><the-button> CLIQUEZ ICI </the-button></router-link>
                 </div>
             </div>
             <div class="mx-5">
@@ -20,13 +18,18 @@
     </section>
 </template>
 <script>
+import TheButton from "./TheButton.vue";
 export default {
     name: "TheContact",
-    components: {},
+    components: { TheButton },
     data() {
         return {};
     },
-    methods: {},
+    methods: {
+        scrollToTop() {
+            window.scrollTo(0, 0);
+        },
+    },
 };
 </script>
 <!-- Style for darkmode and router-link-activ -->

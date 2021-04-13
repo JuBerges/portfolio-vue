@@ -21,6 +21,27 @@ body {
         @apply flex-col mb-5 justify-center w-full xl:w-1/2 text-center;
     }
 }
+/* GLASS EFFECT */
+.glass {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    background: inherit;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+.glass:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: inherit;
+    margin: -20px;
+    box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.5);
+}
 /* FADE IN TRANSITION */
 .spectre {
     animation: spectre 3s ease-in-out alternate;

@@ -80,9 +80,7 @@
                 </main>
                 <!-- PORTFOLIO LINK -->
                 <div class="glass h-20 border-blue-500 border-t border-b flex justify-center">
-                    <router-link @click="scrollTop()" class="bg-blue-600 self-center p-2 text-white uppercase border-2 border-white rounded-lg" :to="{ name: 'Portfolio' }"
-                        >Voir mon Portfolio</router-link
-                    >
+                    <router-link @click="scrollTop()" class="self-center" :to="{ name: 'Portfolio' }"><the-button>Voir mon Portfolio</the-button></router-link>
                 </div>
                 <the-contact></the-contact>
             </div>
@@ -91,11 +89,12 @@
     </div>
 </template>
 <script>
+import TheButton from "../components/TheButton.vue";
 import TheContact from "../components/TheContact.vue";
 import TheFooter from "../components/TheFooter.vue";
 export default {
     name: "Home",
-    components: { TheContact, TheFooter },
+    components: { TheContact, TheFooter, TheButton },
     data() {
         return {};
     },
@@ -107,26 +106,6 @@ export default {
 };
 </script>
 <style scoped>
-.glass {
-    position: relative;
-    z-index: 1;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-    background: inherit;
-    backdrop-filter: blur(5px);
-    overflow: hidden;
-}
-.glass:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background: inherit;
-    margin: -20px;
-    box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.5);
-}
 .coated {
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }

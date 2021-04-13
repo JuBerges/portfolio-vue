@@ -37,7 +37,7 @@
                     <div class="bg-blue-500 rounded-lg shadow-lg w-full sm:w-2/3 mx-2 mt-10 border-4 border-white">
                         <!-- modal body -->
                         <div class="flex">
-                            <div id="commentScroll" class="p-2 max-h-96 overflow-scroll text-white ">
+                            <div id="imageScroll" class="p-2 max-h-96 overflow-scroll text-white ">
                                 <!-- ICI -->
                                 <div v-if="toggle"><the-display class="" :key="img" v-for="img of images" :image="img"></the-display></div>
                             </div>
