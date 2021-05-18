@@ -1,8 +1,16 @@
 {
     "projects": [
         {
+            "name": "dea",
+            "text": "[En construction] Site vitrine pour le rappeur \"DEA\". Cliquez sur le titre du projet pour voir le site.",
+            "images": ["https://julien-berges.fr/projects/dea_1.png", "https://julien-berges.fr/projects/dea_2.png", "https://julien-berges.fr/projects/dea_3.png"],
+            "tech": "React, tailwindCSS.",
+            "video": "",
+            "link": "https://dea.julien-berges.fr/"
+        },
+        {
             "name": "sphinks",
-            "text": "[En construction] Site vitrine pour le compositeur \"Sphinks\". Cliquez sur le titre du projet pour le site.",
+            "text": "[En construction] Site vitrine pour le compositeur \"Sphinks\". Cliquez sur le titre du projet pour voir le site.",
             "images": ["https://julien-berges.fr/projects/sph_1.png", "https://julien-berges.fr/projects/sph_2.png", "https://julien-berges.fr/projects/sph_3.png"],
             "tech": "HTML5, CSS3, tailwindCSS, VueJS.",
             "video": "",

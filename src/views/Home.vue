@@ -34,7 +34,7 @@
                             <div class="home-text pt-4">
                                 <p class="text-4xl xl:text-7xl font-bold text-gray-100">
                                     <span class="text-blue-500">Des sites </span>adaptés <br />
-                                    pour <span class="text-blue-500">tout</span> <br />les
+                                    pour <span class="text-blue-500">tous</span> <br />les
                                     <span class="text-blue-500"> formats</span>
                                 </p>
                             </div>
@@ -68,6 +68,7 @@
                                     <i title="logo JavaScript" class="fab fa-js-square text-yellow-300 p-1"></i>
                                     <i title="logo node JS" class="fab fa-node text-green-500 p-1"></i>
                                     <i title="logo PHP" class="fab fa-php text-indigo-600 p-1"></i>
+                                    <i title="logo React" class="fab fa-react bg-black text-blue-400 p-1"></i>
                                 </div>
                                 <div class="flex">
                                     <img title="logo Vue jS" class="h-12 p-1" src="/src/assets/image/vuejs.png" alt="logo de VueJS" />
