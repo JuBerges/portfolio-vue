@@ -4,10 +4,10 @@
             <div class="flex-col mx-10 mt-16 flex-wrap">
                 <h1 class="text-4xl font-bold text-gray-100 self-center">
                     <span class="text-blue-500">Contactez</span> moi<br />
-                    afin de discuter de<br />
+                    afin de discuter <br />de
                     <span class="text-blue-500">votre projet.</span>
                 </h1>
-                <div class="flex flex-col mt-5">
+                <div class="flex flex-col mt-5 items-center">
                     <router-link @click="scrollToTop()" :to="{ name: 'Contact' }"><the-button> CLIQUEZ ICI </the-button></router-link>
                 </div>
             </div>
