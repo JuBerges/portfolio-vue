@@ -61,7 +61,8 @@
                 </main>
                 <!-- PORTFOLIO LINK -->
                 <div class="glass h-20 border-blue-500 border-t border-b flex justify-center">
-                    <router-link @click="scrollTop()" class="self-center" :to="{ name: 'Portfolio' }"><the-button>Voir mon Portfolio</the-button></router-link>
+                    <router-link @click="scrollTop()" class="self-center" :to="{ name: 'Portfolio' }"><the-button>Portfolio</the-button></router-link>
+                    <a href="https://julien-berges.fr/cv.pdf" target="_blank" class="self-center"><the-button>Mon CV</the-button></a>
                 </div>
                 <the-contact></the-contact>
             </div>
